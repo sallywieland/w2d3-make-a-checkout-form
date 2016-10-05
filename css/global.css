@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding-top: 30px;
+    background: #153243;
+}
+.panel-blue {
+        border-color: #EEF0EB;
+}
+.panel-blue > .panel-heading {
+    background-color: #EEF0EB;
+    border-color: #EEF0EB;
+    border-bottom: 1px solid #cfd1cf;
+}
+h2 {
+    color: #153243;
+}
+.panel-blue > .panel-body {
+    box-shadow: 5px 20px 50px rgba(0, 0, 0, 0.5);
+}
+button {
+    box-shadow: 5px 20px 50px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
