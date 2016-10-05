@@ -495,7 +495,10 @@
 
           <div class="col-sm-4">
             <div class="form-group">
-              <label for="cvv">CVV</label>
+              <label for="cvv">CVV
+              <a href="#" data-toggle="modal" data-target="#cvvPhoto"/>What's this?</a>
+
+              </label>
               <input type="text" id="cvv" name="cvv" class="form-control" maxlength="3" placeholder="000" required />
             </div>
           </div>
@@ -868,6 +871,22 @@
 
 </form>
 
+<!-- being modal for CVV -->
+<div id="cvvPhoto" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="http://unsplash.it/800?image=160" class="img-responsive" />
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
