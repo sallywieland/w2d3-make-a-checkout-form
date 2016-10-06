@@ -13,14 +13,36 @@ body {
     border-color: #EEF0EB;
     border-bottom: 1px solid #cfd1cf;
 }
+.panel-blue > .panel-body {
+    box-shadow: 5px 20px 50px rgba(0, 0, 0, 0.5);
+}
+
 h2 {
     color: #153243;
 }
-.panel-blue > .panel-body {
-    box-shadow: 5px 20px 50px rgba(0, 0, 0, 0.5);
+label {
+    color: #153243;
 }
 button {
     box-shadow: 5px 20px 50px rgba(0, 0, 0, 0.5);
     margin-top: 10px;
     margin-bottom: 10px;
+}
+a {
+    text-decoration: none;
+    color: #5CB85C;
+}
+a:hover {
+    text-decoration: none;
+    color: #449D44;
+}
+.modal-body {
+    height: 350px;
+}
+.img-responsive {
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-top:-150px;
+    margin-left:-200px;
 }
